@@ -28,7 +28,7 @@ GhostTracker is an Android app that monitors notifications and SMS messages in t
 1. **Clone this repository**
 
 ```bash
-git clone https://github.com/yourusername/ghosttracker.git
+git clone https://github.com/dinidumaleezha/ghosttracker.git
 ```
 
 2. **Open in Android Studio**
