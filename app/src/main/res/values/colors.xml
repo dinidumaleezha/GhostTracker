@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorSecondary">#03DAC6</color>
+
+    <!-- Background & Surface -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorSurface">#1E1E1E</color>
+
+    <!-- Text Colors -->
+    <color name="textTitle">#FFFFFF</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B3B3B3</color>
+
+    <!-- Button Colors -->
+    <color name="buttonBackground">#0080ff</color>
+    <color name="buttonText">#000000</color>
+
+    <!-- Border -->
+    <color name="borderColor">#444444</color>
+
+    <!-- Error -->
+    <color name="colorError">#CF6679</color>
+</resources>

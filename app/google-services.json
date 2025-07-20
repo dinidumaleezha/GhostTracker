@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "294080612994",
+    "firebase_url": "https://test-project-9a13e-default-rtdb.firebaseio.com",
+    "project_id": "test-project-9a13e",
+    "storage_bucket": "test-project-9a13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294080612994:android:3a19b5fc3d1840b91d429b",
+        "android_client_info": {
+          "package_name": "com.maleezha.ghosttracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQL4u8075ZEElQ4lbuv549sPkqcvaXZQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294080612994:android:e92b24560ffef86d1d429b",
+        "android_client_info": {
+          "package_name": "com.maleezha.hellouser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQL4u8075ZEElQ4lbuv549sPkqcvaXZQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
