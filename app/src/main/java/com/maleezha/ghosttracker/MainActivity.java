@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private int clickCount = 0;
     private long lastClickTime = 0;
     TextView statusText, hello_title;
+    private ToggleButton toggleHide1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
