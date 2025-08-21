@@ -60,16 +60,6 @@ public class MainActivity extends AppCompatActivity {
         hello_title = findViewById(R.id.hello_title);
         updateStatus();
 
-//        AccountManager accountManager = AccountManager.get(getApplicationContext());
-//        Account[] accounts = accountManager.getAccountsByType("com.google");
-
-//        if (accounts.length > 0) {
-//            String email = accounts[0].name;  // පළවෙනි google account email එක
-//            hello_title.setText("Hello' " + email);
-//        } else {
-//            hello_title.setText("Hello' User.");
-//        }
-
         btnInvisible.setOnClickListener(v -> {
             long currentTime = System.currentTimeMillis();
 
